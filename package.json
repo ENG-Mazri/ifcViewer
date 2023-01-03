@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 8888",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "nuxt": "3.0.0",
+    "three": "^0.141.0",
+    "three-mesh-bvh": "^0.5.20",
+    "web-ifc": "^0.0.33",
+    "web-ifc-three": "^0.0.116"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.1.96",
+    "naive-ui": "^2.34.3",
+    "vuetify": "^3.0.6"
+  }
+}
